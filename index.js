@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/customer',customer);
 app.use('/merchant',merchant);
 const CONNECTION_URL =
-  "mongodb+srv://sandhya:sandhya@cluster0.trov7.mongodb.net/test";
+  "mongodb+srv://sandhya:sandhya@cluster0.trov7.mongodb.net/myFirstDatabase";
 const PORT = process.env.PORT || 5000;
 
 Mongoose.connect(CONNECTION_URL)
